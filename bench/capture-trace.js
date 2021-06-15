@@ -28,7 +28,7 @@ const onRequest = async (req, res) => {
     res.writeHead(500)
   }
 
-  res.end()
+  res.end();
 }
 
 const getBody = (req) =>

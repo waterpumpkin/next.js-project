@@ -12,4 +12,4 @@ async function test() {
   console.log(milliseconds)
 }
 
-test()
+test();
