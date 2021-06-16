@@ -3,6 +3,7 @@ const { promisify } = require('util')
 const rimrafMod = require('rimraf')
 const resolveDataDir = join(__dirname, `fixtures-${process.argv[2]}`, '**/*')
 const rimraf = promisify(rimrafMod)
+// how to deal with async functions
 
 async function test() {
   const time = process.hrtime()

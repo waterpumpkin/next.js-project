@@ -30,7 +30,7 @@ const onRequest = async (req, res) => {
 
   res.end();
 }
-
+// body part
 const getBody = (req) =>
   new Promise((resolve, reject) => {
     let data = ''
@@ -62,5 +62,5 @@ const main = () => {
 }
 
 if (require.main === module) {
-  main()
+  main();
 }
