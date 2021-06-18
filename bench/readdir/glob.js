@@ -20,4 +20,6 @@ async function run() {
   }
 }
 
-run()
+run();
+
+// this is added part. if airtable is loaded, you can submit stripe.
