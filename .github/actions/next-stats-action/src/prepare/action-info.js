@@ -28,7 +28,7 @@ module.exports = function actionInfo() {
     const parentDir = path.join(cwd, '../..')
 
     if (!GITHUB_REF) {
-      // get the current branch name
+      // get the current branch name ex: master 
       GITHUB_REF = execSync(`cd "${cwd}" && git rev-parse --abbrev-ref HEAD`)
         .toString()
         .trim()
